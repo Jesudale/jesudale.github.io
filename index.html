@@ -24,14 +24,54 @@
 
   <base href="./" />
 
-  <!-- un-comment this code to enable service worker-->
+  <!-- un-comment this code to enable service worker
   <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('service-worker.js')
         .then(() => console.log('service worker installed'))
         .catch(err => console.error('Error', err));
     }
-  </script>
+  </script>-->
+
+<script>
+  if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js')
+      .then(registration => {
+          console.log('Service Worker registrado con éxito:', registration);
+
+          // Detectar actualizaciones
+          registration.onupdatefound = () => {
+              const installingWorker = registration.installing;
+              installingWorker.onstatechange = () => {
+                  if (installingWorker.state === 'installed') {
+                      if (navigator.serviceWorker.controller) {
+                          // Nueva versión disponible
+                          console.log('Nueva versión disponible. Recargando...');
+                          // Enviar mensaje al service worker para saltar la espera
+                          navigator.serviceWorker.controller.postMessage('skipWaiting');
+                          // Recargar la página
+                          window.location.reload();
+                      } else {
+                          // Contenido precacheado
+                          console.log('Contenido precacheado listo.');
+                      }
+                  }
+              };
+          };
+      })
+      .catch(error => {
+          console.error('Error al registrar el Service Worker:', error);
+      });
+
+      let refreshing;
+      navigator.serviceWorker.addEventListener('controllerchange', () => {
+          if (refreshing) return;
+          window.location.reload();
+          refreshing = true;
+      });
+  }
+</script>
+
 
   <link href="build/main.css" rel="stylesheet">
  <!--  <link href="assets/libs/leaflet/leaflet.css" rel="stylesheet">

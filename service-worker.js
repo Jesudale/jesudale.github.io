@@ -3,7 +3,7 @@
  * more info on how to use sw-toolbox to custom configure your service worker.
  */
 
- const CACHE_NAME = 'my-cache-v2';
+ const CACHE_NAME = 'my-cache-v3';
  const urlsToCache = [
      '/',
      'index.html',

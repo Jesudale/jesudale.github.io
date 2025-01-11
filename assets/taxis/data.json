@@ -1,0 +1,420 @@
+[
+  {
+    "id": 1,
+    "carro_id": 4,
+    "lat": "23.1230702",
+    "lng": "-82.4207946",
+    "velocidad": "93",
+    "hora": "2018-08-19 15:28:24",
+    "created_at": "2018-08-19 15:28:24",
+    "updated_at": "2018-08-19 15:28:24",
+    "carro": {
+      "id": 4,
+      "chapa": "y836ib94",
+      "modelo": "Pegeut",
+      "capacidad": 3,
+      "chofer_id": 7,
+      "created_at": "2018-08-19 15:28:24",
+      "updated_at": "2018-08-19 15:28:24",
+      "chofer": {
+        "id": 7,
+        "licencia": "4i21160",
+        "user_id": 28,
+        "created_at": "2018-08-19 15:28:24",
+        "updated_at": "2018-08-19 15:28:24",
+        "user": {
+          "id": 28,
+          "nombre": "Ismael",
+          "apellidos": "Bartoletti",
+          "direccion": "744 Victoria Vista\nWest Rylee, ID 89206",
+          "email": "kling.kendrick@example.com",
+          "telefono": "365-415-3468",
+          "created_at": "2018-08-19 15:28:24",
+          "updated_at": "2018-08-19 15:28:24",
+          "is_approved": false,
+          "role_id": null
+        }
+      }
+    }
+  },
+  {
+    "id": 2,
+    "carro_id": 4,
+    "lat": "23.1082601",
+    "lng": "-82.4337658",
+    "velocidad": "70",
+    "hora": "2018-08-19 15:33:24",
+    "created_at": "2018-08-19 15:28:24",
+    "updated_at": "2018-08-19 15:28:24",
+    "carro": {
+      "id": 4,
+      "chapa": "y836ib94",
+      "modelo": "Pegeut",
+      "capacidad": 3,
+      "chofer_id": 7,
+      "created_at": "2018-08-19 15:28:24",
+      "updated_at": "2018-08-19 15:28:24",
+      "chofer": {
+        "id": 7,
+        "licencia": "4i21160",
+        "user_id": 28,
+        "created_at": "2018-08-19 15:28:24",
+        "updated_at": "2018-08-19 15:28:24",
+        "user": {
+          "id": 28,
+          "nombre": "Ismael",
+          "apellidos": "Bartoletti",
+          "direccion": "744 Victoria Vista\nWest Rylee, ID 89206",
+          "email": "kling.kendrick@example.com",
+          "telefono": "365-415-3468",
+          "created_at": "2018-08-19 15:28:24",
+          "updated_at": "2018-08-19 15:28:24",
+          "is_approved": false,
+          "role_id": null
+        }
+      }
+    }
+  },
+  {
+    "id": 3,
+    "carro_id": 4,
+    "lat": "23.1327029",
+    "lng": "-82.3980701",
+    "velocidad": "114",
+    "hora": "2018-08-19 15:38:24",
+    "created_at": "2018-08-19 15:28:24",
+    "updated_at": "2018-08-19 15:28:24",
+    "carro": {
+      "id": 4,
+      "chapa": "y836ib94",
+      "modelo": "Pegeut",
+      "capacidad": 3,
+      "chofer_id": 7,
+      "created_at": "2018-08-19 15:28:24",
+      "updated_at": "2018-08-19 15:28:24",
+      "chofer": {
+        "id": 7,
+        "licencia": "4i21160",
+        "user_id": 28,
+        "created_at": "2018-08-19 15:28:24",
+        "updated_at": "2018-08-19 15:28:24",
+        "user": {
+          "id": 28,
+          "nombre": "Ismael",
+          "apellidos": "Bartoletti",
+          "direccion": "744 Victoria Vista\nWest Rylee, ID 89206",
+          "email": "kling.kendrick@example.com",
+          "telefono": "365-415-3468",
+          "created_at": "2018-08-19 15:28:24",
+          "updated_at": "2018-08-19 15:28:24",
+          "is_approved": false,
+          "role_id": null
+        }
+      }
+    }
+  },
+  {
+    "id": 4,
+    "carro_id": 14,
+    "lat": "23.12764",
+    "lng": "-82.3993245",
+    "velocidad": "80",
+    "hora": "2018-08-19 15:43:24",
+    "created_at": "2018-08-19 15:28:24",
+    "updated_at": "2018-08-19 15:28:24",
+    "carro": {
+      "id": 14,
+      "chapa": "q525wj68",
+      "modelo": "Moskovich",
+      "capacidad": 3,
+      "chofer_id": 3,
+      "created_at": "2018-08-19 15:28:24",
+      "updated_at": "2018-08-19 15:28:24",
+      "chofer": {
+        "id": 3,
+        "licencia": "5y84299",
+        "user_id": 43,
+        "created_at": "2018-08-19 15:28:24",
+        "updated_at": "2018-08-19 15:28:24",
+        "user": {
+          "id": 43,
+          "nombre": "Valentina",
+          "apellidos": "Prosacco",
+          "direccion": "64863 Laurence Passage\nNorth Korbin, MI 04711",
+          "email": "cortney96@example.com",
+          "telefono": "1-858-816-9020 x36956",
+          "created_at": "2018-08-19 15:28:24",
+          "updated_at": "2018-08-19 15:28:24",
+          "is_approved": false,
+          "role_id": null
+        }
+      }
+    }
+  },
+  {
+    "id": 5,
+    "carro_id": 4,
+    "lat": "23.1253646",
+    "lng": "-82.3881493",
+    "velocidad": "66",
+    "hora": "2018-08-19 15:48:24",
+    "created_at": "2018-08-19 15:28:24",
+    "updated_at": "2018-08-19 15:28:24",
+    "carro": {
+      "id": 4,
+      "chapa": "y836ib94",
+      "modelo": "Pegeut",
+      "capacidad": 3,
+      "chofer_id": 7,
+      "created_at": "2018-08-19 15:28:24",
+      "updated_at": "2018-08-19 15:28:24",
+      "chofer": {
+        "id": 7,
+        "licencia": "4i21160",
+        "user_id": 28,
+        "created_at": "2018-08-19 15:28:24",
+        "updated_at": "2018-08-19 15:28:24",
+        "user": {
+          "id": 28,
+          "nombre": "Ismael",
+          "apellidos": "Bartoletti",
+          "direccion": "744 Victoria Vista\nWest Rylee, ID 89206",
+          "email": "kling.kendrick@example.com",
+          "telefono": "365-415-3468",
+          "created_at": "2018-08-19 15:28:24",
+          "updated_at": "2018-08-19 15:28:24",
+          "is_approved": false,
+          "role_id": null
+        }
+      }
+    }
+  },
+  {
+    "id": 6,
+    "carro_id": 15,
+    "lat": "23.1178854",
+    "lng": "-82.4101733",
+    "velocidad": "6",
+    "hora": "2018-08-19 15:53:24",
+    "created_at": "2018-08-19 15:28:24",
+    "updated_at": "2018-08-19 15:28:24",
+    "carro": {
+      "id": 15,
+      "chapa": "u096cs85",
+      "modelo": "Lada",
+      "capacidad": 3,
+      "chofer_id": 14,
+      "created_at": "2018-08-19 15:28:24",
+      "updated_at": "2018-08-19 15:28:24",
+      "chofer": {
+        "id": 14,
+        "licencia": "1w43252",
+        "user_id": 10,
+        "created_at": "2018-08-19 15:28:24",
+        "updated_at": "2018-08-19 15:28:24",
+        "user": {
+          "id": 10,
+          "nombre": "Jaylon",
+          "apellidos": "Fisher",
+          "direccion": "24834 Robert Ports\nPort Nikko, MA 50309",
+          "email": "caitlyn.dubuque@example.com",
+          "telefono": "851-207-7681 x9745",
+          "created_at": "2018-08-19 15:28:23",
+          "updated_at": "2018-08-19 15:28:23",
+          "is_approved": false,
+          "role_id": null
+        }
+      }
+    }
+  },
+  {
+    "id": 7,
+    "carro_id": 15,
+    "lat": "23.1181785",
+    "lng": "-82.4146931",
+    "velocidad": "85",
+    "hora": "2018-08-19 15:58:24",
+    "created_at": "2018-08-19 15:28:24",
+    "updated_at": "2018-08-19 15:28:24",
+    "carro": {
+      "id": 15,
+      "chapa": "u096cs85",
+      "modelo": "Lada",
+      "capacidad": 3,
+      "chofer_id": 14,
+      "created_at": "2018-08-19 15:28:24",
+      "updated_at": "2018-08-19 15:28:24",
+      "chofer": {
+        "id": 14,
+        "licencia": "1w43252",
+        "user_id": 10,
+        "created_at": "2018-08-19 15:28:24",
+        "updated_at": "2018-08-19 15:28:24",
+        "user": {
+          "id": 10,
+          "nombre": "Jaylon",
+          "apellidos": "Fisher",
+          "direccion": "24834 Robert Ports\nPort Nikko, MA 50309",
+          "email": "caitlyn.dubuque@example.com",
+          "telefono": "851-207-7681 x9745",
+          "created_at": "2018-08-19 15:28:23",
+          "updated_at": "2018-08-19 15:28:23",
+          "is_approved": false,
+          "role_id": null
+        }
+      }
+    }
+  },
+  {
+    "id": 8,
+    "carro_id": 4,
+    "lat": "23.1141599",
+    "lng": "-82.4131987",
+    "velocidad": "58",
+    "hora": "2018-08-19 16:03:24",
+    "created_at": "2018-08-19 15:28:24",
+    "updated_at": "2018-08-19 15:28:24",
+    "carro": {
+      "id": 4,
+      "chapa": "y836ib94",
+      "modelo": "Pegeut",
+      "capacidad": 3,
+      "chofer_id": 7,
+      "created_at": "2018-08-19 15:28:24",
+      "updated_at": "2018-08-19 15:28:24",
+      "chofer": {
+        "id": 7,
+        "licencia": "4i21160",
+        "user_id": 28,
+        "created_at": "2018-08-19 15:28:24",
+        "updated_at": "2018-08-19 15:28:24",
+        "user": {
+          "id": 28,
+          "nombre": "Ismael",
+          "apellidos": "Bartoletti",
+          "direccion": "744 Victoria Vista\nWest Rylee, ID 89206",
+          "email": "kling.kendrick@example.com",
+          "telefono": "365-415-3468",
+          "created_at": "2018-08-19 15:28:24",
+          "updated_at": "2018-08-19 15:28:24",
+          "is_approved": false,
+          "role_id": null
+        }
+      }
+    }
+  },
+  {
+    "id": 9,
+    "carro_id": 15,
+    "lat": "23.1147331",
+    "lng": "-82.4171333",
+    "velocidad": "15",
+    "hora": "2018-08-19 16:08:24",
+    "created_at": "2018-08-19 15:28:24",
+    "updated_at": "2018-08-19 15:28:24",
+    "carro": {
+      "id": 15,
+      "chapa": "u096cs85",
+      "modelo": "Lada",
+      "capacidad": 3,
+      "chofer_id": 14,
+      "created_at": "2018-08-19 15:28:24",
+      "updated_at": "2018-08-19 15:28:24",
+      "chofer": {
+        "id": 14,
+        "licencia": "1w43252",
+        "user_id": 10,
+        "created_at": "2018-08-19 15:28:24",
+        "updated_at": "2018-08-19 15:28:24",
+        "user": {
+          "id": 10,
+          "nombre": "Jaylon",
+          "apellidos": "Fisher",
+          "direccion": "24834 Robert Ports\nPort Nikko, MA 50309",
+          "email": "caitlyn.dubuque@example.com",
+          "telefono": "851-207-7681 x9745",
+          "created_at": "2018-08-19 15:28:23",
+          "updated_at": "2018-08-19 15:28:23",
+          "is_approved": false,
+          "role_id": null
+        }
+      }
+    }
+  },
+  {
+    "id": 10,
+    "carro_id": 14,
+    "lat": "23.1164867",
+    "lng": "-82.4091902",
+    "velocidad": "2",
+    "hora": "2018-08-19 16:13:24",
+    "created_at": "2018-08-19 15:28:24",
+    "updated_at": "2018-08-19 15:28:24",
+    "carro": {
+      "id": 14,
+      "chapa": "q525wj68",
+      "modelo": "Moskovich",
+      "capacidad": 3,
+      "chofer_id": 3,
+      "created_at": "2018-08-19 15:28:24",
+      "updated_at": "2018-08-19 15:28:24",
+      "chofer": {
+        "id": 3,
+        "licencia": "5y84299",
+        "user_id": 43,
+        "created_at": "2018-08-19 15:28:24",
+        "updated_at": "2018-08-19 15:28:24",
+        "user": {
+          "id": 43,
+          "nombre": "Valentina",
+          "apellidos": "Prosacco",
+          "direccion": "64863 Laurence Passage\nNorth Korbin, MI 04711",
+          "email": "cortney96@example.com",
+          "telefono": "1-858-816-9020 x36956",
+          "created_at": "2018-08-19 15:28:24",
+          "updated_at": "2018-08-19 15:28:24",
+          "is_approved": false,
+          "role_id": null
+        }
+      }
+    }
+  },
+  {
+    "id": 11,
+    "carro_id": 4,
+    "lat": "23.1221394",
+    "lng": "-82.4201183",
+    "velocidad": "65",
+    "hora": "2018-08-19 16:18:24",
+    "created_at": "2018-08-19 15:28:24",
+    "updated_at": "2018-08-19 15:28:24",
+    "carro": {
+      "id": 4,
+      "chapa": "y836ib94",
+      "modelo": "Pegeut",
+      "capacidad": 3,
+      "chofer_id": 7,
+      "created_at": "2018-08-19 15:28:24",
+      "updated_at": "2018-08-19 15:28:24",
+      "chofer": {
+        "id": 7,
+        "licencia": "4i21160",
+        "user_id": 28,
+        "created_at": "2018-08-19 15:28:24",
+        "updated_at": "2018-08-19 15:28:24",
+        "user": {
+          "id": 28,
+          "nombre": "Ismael",
+          "apellidos": "Bartoletti",
+          "direccion": "744 Victoria Vista\nWest Rylee, ID 89206",
+          "email": "kling.kendrick@example.com",
+          "telefono": "365-415-3468",
+          "created_at": "2018-08-19 15:28:24",
+          "updated_at": "2018-08-19 15:28:24",
+          "is_approved": false,
+          "role_id": null
+        }
+      }
+    }
+  }
+]

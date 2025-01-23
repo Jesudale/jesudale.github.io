@@ -5,7 +5,7 @@
     (function(w){var i=w.Ionic=w.Ionic||{};i.version='3.9.2';i.angular='5.2.10';i.staticDir='build/';})(window);
   </script>
   <meta charset="UTF-8">
-  <title>La Flecha</title>
+  <title>Dondeando</title>
   <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta name="format-detection" content="telephone=no">
   <meta name="msapplication-tap-highlight" content="no">
@@ -21,6 +21,9 @@
   <!-- cordova.js required for cordova apps (remove if not needed) -->
   <script src="cordova.js"></script>
 
+  <script
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBC46vYnHbbWdVqHE6UqA-aIfi-DZOrIlE&libraries=places&callback=Function.prototype">
+</script>
 
   <base href="./" />
 
@@ -33,6 +36,7 @@
     }
   </script>-->
 
+  
 <script>
   if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('service-worker.js')
@@ -74,8 +78,8 @@
 
 
   <link href="build/main.css" rel="stylesheet">
- <!--  <link href="assets/libs/leaflet/leaflet.css" rel="stylesheet">
- -->
+  <link href="assets/libs/leaflet/leaflet.css" rel="stylesheet">
+
 </head>
 <body>
 
@@ -100,6 +104,6 @@
 
   <!-- The main bundle js is generated during the build process -->
   <script src="build/main.js"></script>
-  <!-- <script src="assets/libs/awesome-markers/leaflet.awesome-markers.js"></script> -->
+  <script src="assets/libs/awesome-markers/leaflet.awesome-markers.js"></script>
 </body>
 </html>

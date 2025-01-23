@@ -1,11 +1,11 @@
 {
-  "name": "flechataxiscuba.com",
-  "short_name": "flechataxiscuba.com",
+  "name": "com.habanaservicentro.com",
+  "short_name": "com.habanaservicentro.com",
   "start_url": "index.html",
   "display": "standalone",
   "icons": [{
     "src": "assets/imgs/logo.png",
-    "sizes": "500x500",
+    "sizes": "512x512",
     "type": "image/png"
   }],
   "background_color": "#4e8ef7",

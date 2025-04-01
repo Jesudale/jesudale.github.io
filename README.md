@@ -1,1 +1,0 @@
-# jesudale.github.io

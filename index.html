@@ -2,22 +2,11 @@
 <html lang="en">
 
 <head>
-<<<<<<< HEAD
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Index - SoftLand Bootstrap Template</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
-=======
-  <script data-ionic="inject">
-    (function(w){var i=w.Ionic=w.Ionic||{};i.version='3.9.2';i.angular='5.2.10';i.staticDir='build/';})(window);
-  </script>
-  <meta charset="UTF-8">
-  <title>Dondeando</title>
-  <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <meta name="format-detection" content="telephone=no">
-  <meta name="msapplication-tap-highlight" content="no">
->>>>>>> 7cada4924b9156c08b6556441fca5f6007679f88
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -35,7 +24,6 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 
-<<<<<<< HEAD
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
@@ -46,67 +34,6 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-=======
-  <script
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBC46vYnHbbWdVqHE6UqA-aIfi-DZOrIlE&libraries=places&callback=Function.prototype">
-</script>
-
-  <base href="./" />
-
-  <!-- un-comment this code to enable service worker
-  <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('service-worker.js')
-        .then(() => console.log('service worker installed'))
-        .catch(err => console.error('Error', err));
-    }
-  </script>-->
-
-  
-<script>
-  if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('service-worker.js')
-      .then(registration => {
-          console.log('Service Worker registrado con éxito:', registration);
-
-          // Detectar actualizaciones
-          registration.onupdatefound = () => {
-              const installingWorker = registration.installing;
-              installingWorker.onstatechange = () => {
-                  if (installingWorker.state === 'installed') {
-                      if (navigator.serviceWorker.controller) {
-                          // Nueva versión disponible
-                          console.log('Nueva versión disponible. Recargando...');
-                          // Enviar mensaje al service worker para saltar la espera
-                          navigator.serviceWorker.controller.postMessage('skipWaiting');
-                          // Recargar la página
-                          window.location.reload();
-                      } else {
-                          // Contenido precacheado
-                          console.log('Contenido precacheado listo.');
-                      }
-                  }
-              };
-          };
-      })
-      .catch(error => {
-          console.error('Error al registrar el Service Worker:', error);
-      });
-
-      let refreshing;
-      navigator.serviceWorker.addEventListener('controllerchange', () => {
-          if (refreshing) return;
-          window.location.reload();
-          refreshing = true;
-      });
-  }
-</script>
-
-
-  <link href="build/main.css" rel="stylesheet">
-  <link href="assets/libs/leaflet/leaflet.css" rel="stylesheet">
-
->>>>>>> 7cada4924b9156c08b6556441fca5f6007679f88
 </head>
 
 <body class="index-page">
@@ -869,12 +796,6 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
-<<<<<<< HEAD
-=======
-  <!-- The main bundle js is generated during the build process -->
-  <script src="build/main.js"></script>
-  <script src="assets/libs/awesome-markers/leaflet.awesome-markers.js"></script>
->>>>>>> 7cada4924b9156c08b6556441fca5f6007679f88
 </body>
 
 </html>
